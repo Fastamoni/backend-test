@@ -8,9 +8,7 @@
     "start": "node app",
     "test:load": "artillery run config.yaml"
   },
-  "engines": {
-    "node": "16.14.2"
-  },
+
   "author": "",
   "license": "ISC",
   "dependencies": {

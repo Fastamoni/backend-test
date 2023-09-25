@@ -6,7 +6,9 @@ class DatabaseService {
   constructor() {
     this.sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
       host: process.env.HOST,
-      dialect: process.env.DIALECT
+      dialect: process.env.DIALECT,
+      port:process.env.PORT
+
     });
   }
 
